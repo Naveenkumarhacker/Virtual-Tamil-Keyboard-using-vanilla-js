@@ -1,0 +1,3320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tamil Virtul KeyBoard</title>
+  </head>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <div class="page-header">
+      <img src="typing.png" />
+    </div>
+    <div style="text-align: center;">
+      <form id="ctl00" onsubmit="return myFunction();">
+        <textarea id="myText"></textarea>
+        <div id="table">
+          <table width="200" border="0">
+            <tbody>
+              <tr>
+                <td width="100%" align="center">
+                  <table
+                    border="1"
+                    cellpadding="8"
+                    cellspacing="8"
+                    class="center"
+                  >
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;fist&#39;)"
+                        >
+                          <span class="style7">அ</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ka&#39;)"
+                        >
+                          <span class="style7">க</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;gna&#39;)"
+                        >
+                          <span class="style7">ங</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;cha&#39;)"
+                        >
+                          <span class="style7">ச</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;gya&#39;)"
+                        >
+                          <span class="style7">ஞ</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ta&#39;)"
+                        >
+                          <span class="style7">ட</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;naa&#39;)"
+                        >
+                          <span class="style7">ண</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;tha&#39;)"
+                        >
+                          <span class="style7">த</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ha&#39;)"
+                        >
+                          <span class="style7">ஹ</span>
+                        </td>
+                        <td colspan="9" rowspan="4">
+                          <div id="fist" style="display: none;">
+                            <table border="1" cellpadding="5" cellspacing="5">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;அ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">அ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஆ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஆ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;இ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">இ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஈ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஈ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;உ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">உ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஊ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஊ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;எ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">எ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஏ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஏ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஐ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஐ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஒ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஒ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஓ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஓ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஔ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஔ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஃ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஃ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2947; -->
+                          <div id="ka" style="display: none;">
+                            <table border="1" cellpadding="5" cellspacing="5">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;க&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">க</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;கௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">கௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;க்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">க்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2965; -->
+                          <div id="gna" style="display: none;">
+                            <table border="1" cellpadding="5" cellspacing="5">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ங&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ங</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஙௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஙௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ங்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ங்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2969; -->
+                          <div id="cha" style="display: none;">
+                            <table border="1" cellpadding="5" cellspacing="5">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ச&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ச</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;செ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">செ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;சௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">சௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ச்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ச்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2970; -->
+                          <div id="gya" style="display: none;">
+                            <table border="1" cellpadding="5" cellspacing="5">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஞ்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஞ்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2974; -->
+                          <div id="ta" style="display: none;">
+                            <table border="1" cellpadding="5" cellspacing="5">
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ட&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ட</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;டௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">டௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ட்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ட்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2975; -->
+                          <div id="naa" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ண&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ண</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ணௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ணௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ண்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ண்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2979; -->
+                          <div id="tha" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;த&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">த</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;து&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">து</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;தௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">தௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;த்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">த்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2980; -->
+                          <div id="na1" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ந&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ந</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;நௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">நௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ந்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ந்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2984; -->
+                          <div id="pa" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ப&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ப</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;போ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">போ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;பௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">பௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ப்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ப்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2986; -->
+                          <div id="ma" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ம&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ம</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;மௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">மௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ம்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ம்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2990; -->
+                          <div id="ya" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ய&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ய</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">யௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ய்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ய்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2991; -->
+                          <div id="ra" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ர&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ர</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ரௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ரௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ர்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ர்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2992; -->
+                          <div id="la" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ல&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ல</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;லௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">லௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ல்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ல்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2994; -->
+                          <div id="va" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;வ்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">வ்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2997; -->
+                          <div id="zha" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ழ்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ழ்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2996; -->
+                          <div id="ila" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ள&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ள</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ளௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ளௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ள்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ள்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2995; -->
+                          <div id="ira" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ற&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ற</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;று&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">று</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;றௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">றௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ற்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ற்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2993; -->
+
+                          <div id="ina" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ன&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ன</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;னௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">னௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ன்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ன்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2985; -->
+
+                          <div id="jha" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;யீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஜ்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஜ்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2972; -->
+                          <div id="sha" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஷ்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஷ்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#2999; -->
+                          <div id="sa" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஸ்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஸ்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#3000; -->
+                          <div id="ha" style="display: none;">
+                            <table
+                              border="1"
+                              bordercolor="#FFFBF0"
+                              cellpadding="5"
+                              cellspacing="5"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹா&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹா</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹி&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹி</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹீ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹீ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹு&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹு</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹூ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹூ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹெ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹெ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹே&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹே</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹை&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹை</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹொ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹொ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹோ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹோ</font></a
+                                    >
+                                  </td>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹௌ&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹௌ</font></a
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="center" bgcolor="#BFAFEF">
+                                    <a
+                                      class="style7"
+                                      onclick="pass(&#39;ஹ்&#39;)"
+                                      style="text-decoration: none;"
+                                    >
+                                      <font color="#FFFFFF">ஹ்</font></a
+                                    >
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!-- &#3001; -->
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;na1&#39;)"
+                        >
+                          <span class="style7">ந</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;sa&#39;)"
+                        >
+                          <span class="style7">ஸ</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;pa&#39;)"
+                        >
+                          <span class="style7">ப</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;sha&#39;)"
+                        >
+                          <span class="style7">ஷ</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ma&#39;)"
+                        >
+                          <span class="style7">ம</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;jha&#39;)"
+                        >
+                          <span class="style7">ஜ</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ya&#39;)"
+                        >
+                          <span class="style7">ய</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="style4"></td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ina&#39;)"
+                        >
+                          <span class="style7">ன</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ira&#39;)"
+                        >
+                          <span class="style7">ற</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ila&#39;)"
+                        >
+                          <span class="style7">ள</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;zha&#39;)"
+                        >
+                          <span class="style7">ழ</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;va&#39;)"
+                        >
+                          <span class="style7">வ</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;la&#39;)"
+                        >
+                          <span class="style7">ல</span>
+                        </td>
+                        <td
+                          bgcolor="#FFFFC1"
+                          onmouseover="return calfun(&#39;ra&#39;)"
+                        >
+                          <span class="style7">ர</span>
+                        </td>
+                        <td bgcolor="#FFFFC1" onclick="pass(&#39;ஸ்ரீ&#39;)">
+                          <span class="style7">ஸ்ரீ</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button class="button" onclick="reset()">Reset</button>
+      </form>
+    </div>
+
+    <span style="color: #389aff;">CopyRight&copy;Naveenkumar</span>
+  </body>
+  <script src="index.js"></script>
+</html>
