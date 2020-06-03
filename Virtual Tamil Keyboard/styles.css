@@ -1,19 +1,22 @@
 .button {
+  
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
-  width: 300px;
+  width: 49%;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  
   cursor: pointer;
   background-color: #389aff;
 }
 #myText {
+  margin-left: auto;
+  margin-right: auto;
   height: 200px;
-  width: 80%;
+  width: 100%;
   margin-bottom: 3%;
   background-color: white;
   font-size: 30px;
@@ -25,9 +28,11 @@ table.center {
   margin-right: auto;
   border: 1px solid #389aff;
   font-weight: 900;
+  width: 100%;
 }
 #table {
-  padding-left: 35%;
+ 
+  width: 100%;
 }
 img {
   display: block;
@@ -35,4 +40,26 @@ img {
   margin-right: auto;
   width: 40%;
   height: 30%;
+}
+
+.reset{
+  background: red;
+}
+
+body{
+  height: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(max-width: 770px){
+
+  body{
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 }

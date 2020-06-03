@@ -599,3 +599,10 @@ function myFunction() {
 function reset() {
   document.getElementById("myText").value = "";
 }
+
+
+function removeOne(){
+   var text = document.getElementById("myText").value;
+   var newStr = text.substring(0, text.length-1);
+   document.getElementById("myText").value = newStr;
+}

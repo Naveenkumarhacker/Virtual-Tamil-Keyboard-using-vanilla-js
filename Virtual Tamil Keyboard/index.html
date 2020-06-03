@@ -4,7 +4,7 @@
     <title>Tamil Virtul KeyBoard</title>
   </head>
   <link rel="stylesheet" href="styles.css" />
-  <body>
+  <body >
     <div class="page-header">
       <img src="typing.png" />
     </div>
@@ -12,7 +12,7 @@
       <form id="ctl00" onsubmit="return myFunction();">
         <textarea id="myText"></textarea>
         <div id="table">
-          <table width="200" border="0">
+          <table width="100%" border="0">
             <tbody>
               <tr>
                 <td width="100%" align="center">
@@ -3309,8 +3309,10 @@
               </tr>
             </tbody>
           </table>
+          <button class="button reset" onclick="reset()">Reset</button>
+        <button class="button" onclick="removeOne()">Back Space</button>
         </div>
-        <button class="button" onclick="reset()">Reset</button>
+        
       </form>
     </div>
 
